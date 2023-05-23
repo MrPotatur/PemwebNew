@@ -28,15 +28,3 @@ Route::get('/contact', function () {
 Route::get('/sample', function () {
     return view('sample');
 })->name('sample');
-
-Route::get('/main', function () {
-    return view('main');
-})->name('main');
-
-Route::get('/footer', function () {
-    return view('footer');
-})->name('footer');
-
-Route::get('/header', function () {
-    return view('header');
-})->name('header');

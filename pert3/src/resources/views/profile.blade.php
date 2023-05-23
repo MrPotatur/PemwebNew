@@ -2,10 +2,7 @@
 
 @section('content')
     <!-- <div><h1><center>INI HALAMAN PROFILE</center></h1></div> -->
-    <h1>
-        <p style="text-align: center;">Fathur Andre Fadilah</p>
-        <p style="text-align: center;">20210803037</p>
-    </h1>
+    
   <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
     <ol class="carousel-indicators">
       <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>

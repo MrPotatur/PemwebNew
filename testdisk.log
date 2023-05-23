@@ -1,0 +1,77 @@
+
+
+Wed May 10 23:56:33 2023
+Command line: TestDisk
+
+TestDisk 7.1, Data Recovery Utility, July 2019
+Christophe GRENIER <grenier@cgsecurity.org>
+https://www.cgsecurity.org
+OS: Linux, kernel 5.15.90.1-microsoft-standard-WSL2 (#1 SMP Fri Jan 27 02:56:13 UTC 2023) x86_64
+Compiler: GCC 9.2
+ext2fs lib: 1.45.5, ntfs lib: libntfs-3g, reiserfs lib: none, ewf lib: none, curses lib: ncurses 6.1
+Warning: can't get size for Disk /dev/mapper/control - 0 B - 0 sectors, sector size=512
+Warning: can't get size for Disk /dev/loop0 - 0 B - 0 sectors, sector size=512
+Warning: can't get size for Disk /dev/loop1 - 0 B - 0 sectors, sector size=512
+Warning: can't get size for Disk /dev/loop2 - 0 B - 0 sectors, sector size=512
+Warning: can't get size for Disk /dev/loop3 - 0 B - 0 sectors, sector size=512
+Warning: can't get size for Disk /dev/loop4 - 0 B - 0 sectors, sector size=512
+Warning: can't get size for Disk /dev/loop5 - 0 B - 0 sectors, sector size=512
+Warning: can't get size for Disk /dev/loop6 - 0 B - 0 sectors, sector size=512
+Warning: can't get size for Disk /dev/loop7 - 0 B - 0 sectors, sector size=512
+Hard disk list
+Disk /dev/sda - 380 MB / 363 MiB - CHS 46 255 63 (RO), sector size=512 - Msft Virtual Disk, FW:1.0
+Disk /dev/sdb - 1073 MB / 1024 MiB - CHS 130 255 63, sector size=512 - Msft Virtual Disk, FW:1.0
+Disk /dev/sdc - 1099 GB / 1024 GiB - CHS 133674 255 63, sector size=512 - Msft Virtual Disk, FW:1.0
+
+Partition table type (auto): None
+Disk /dev/sdc - 1099 GB / 1024 GiB - Msft Virtual Disk
+Partition table type: None
+
+Interface Advanced
+
+recover_EXT2: s_block_group_nr=0/8192, s_mnt_count=32/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8192
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 268435456
+recover_EXT2: part_size 2147483648
+Filesystem created: Sun Apr  9 17:38:43 2023
+Last mount time:    Wed May 10 23:49:19 2023
+   P ext4                     0   0  1 133674 172  2 2147483648
+     ext4 blocksize=4096 Large_file Sparse_SB Recover, 1099 GB / 1024 GiB
+
+
+dir_partition inode=2
+   P ext4                     0   0  1 133674 172  2 2147483648
+     ext4 blocksize=4096 Large_file Sparse_SB Recover, 1099 GB / 1024 GiB
+Directory /
+       2 drwxr-xr-x     0      0      4096 10-May-2023 23:49 .
+       2 drwxr-xr-x     0      0      4096 10-May-2023 23:49 ..
+      11 drwx------     0      0     16384  9-Apr-2023 17:38 lost+found
+      12 lrwxrwxrwx     0      0         7 16-Feb-2022 07:32 bin
+    8193 drwxr-xr-x     0      0      4096 16-Feb-2022 07:46 boot
+    8194 drwxr-xr-x     0      0      4096 16-Feb-2022 07:37 dev
+   16385 drwxr-xr-x     0      0      4096 10-May-2023 23:55 etc
+   16386 drwxr-xr-x     0      0      4096  9-Apr-2023 17:39 home
+    1602 lrwxrwxrwx     0      0         7 16-Feb-2022 07:32 lib
+    1603 lrwxrwxrwx     0      0         9 16-Feb-2022 07:32 lib32
+    1604 lrwxrwxrwx     0      0         9 16-Feb-2022 07:32 lib64
+    1605 lrwxrwxrwx     0      0        10 16-Feb-2022 07:32 libx32
+   24577 drwxr-xr-x     0      0      4096 16-Feb-2022 07:32 media
+   24578 drwxr-xr-x     0      0      4096  9-Apr-2023 17:38 mnt
+   32769 drwxr-xr-x     0      0      4096 16-Feb-2022 07:32 opt
+   32770 drwxr-xr-x     0      0      4096 15-Apr-2020 18:09 proc
+   40961 drwx------     0      0      4096 10-May-2023 23:51 root
+   40962 drwxr-xr-x     0      0      4096 16-Feb-2022 07:38 run
+    1611 lrwxrwxrwx     0      0         8 16-Feb-2022 07:32 sbin
+   49153 drwxr-xr-x     0      0      4096 16-Feb-2022 07:37 snap
+   49154 drwxr-xr-x     0      0      4096 16-Feb-2022 07:32 srv
+   57345 drwxr-xr-x     0      0      4096 15-Apr-2020 18:09 sys
+   57346 drwxrwxrwt     0      0      4096 10-May-2023 23:55 tmp
+   65537 drwxr-xr-x     0      0      4096 16-Feb-2022 07:35 usr
+   40963 drwxr-xr-x     0      0      4096 16-Feb-2022 07:37 var
+ 33554433 drwxr-xr-x     0      0      4096  9-Apr-2023 18:14 Docker
+ 33554435 drwxr-xr-x     0      0      4096 10-May-2023 14:07 pert3
+ 33554576 drwxr-xr-x     0      0      4096 10-May-2023 14:07 pert4
+   60578 drwxr-xr-x     0      0      4096 10-May-2023 18:12 pemweb
+   40838 -rwxr-xr-x     0      0         0 10-May-2023 23:49 init
+
+TestDisk exited normally.

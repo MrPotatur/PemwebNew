@@ -10,18 +10,12 @@
                     <a class="nav-link" href="{{ route('profile') }}">Profiles</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="">Contact</a>
+                    <a class="nav-link" href="{{ route('contact') }}">Contact</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="https://www.instagram.com/fadilahaf12_/">About Me</a>
+                    <a class="nav-link" href="{{ route('sample') }}">Sample</a>
                 </li>
             </ul>
-            <div class="form-group mx-sm-3 mb-2">
-    <label for="inputPassword2" class="sr-only">Cari tentang saya</label>
-    <input type="password" class="form-control" id="inputPassword2" placeholder="Cari tentang saya">
-  </div>
-  <button type="submit" class="btn btn-primary mb-2">Search</button>
-</form>
         </div>
         <div class="flex-grow-1">
         </div>
