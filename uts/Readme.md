@@ -1,3 +1,5 @@
+Fathur Andre Fadilah
+20210803037
 # Deployment 
 - Run docker-compose up -d --build wait for finish.
 - Run docker exec -it uts_php bash
